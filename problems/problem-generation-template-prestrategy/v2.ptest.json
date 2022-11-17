@@ -1,0 +1,42 @@
+{
+    "defaultDomain": "ff_domain_v2.pddl",
+    "defaultProblem": "problem_template_v2.pddl",
+    "defaultOptions": "",
+    "cases": [
+      {
+        "label": "Problem 1 5x5",
+        "preProcess": {
+          "kind": "jinja2",
+          "data": "p1_5x5_v2.json"
+        }
+      },
+      {
+        "label": "Problem 2 5x5",
+        "preProcess": {
+          "kind": "jinja2",
+          "data": "p2_5x5_v2.json"
+        }
+      },
+      {
+        "label": "Problem 1 6x6",
+        "preProcess": {
+          "kind": "jinja2",
+          "data": "p1_6x6_v2.json"
+        }
+      },
+      {
+        "label": "Problem 1 7x7",
+        "preProcess": {
+          "kind": "jinja2",
+          "data": "p1_7x7_v2.json"
+        }
+      },
+      {
+        "label": "Problem 1 8x8",
+        "preProcess": {
+          "kind": "jinja2",
+          "data": "p1_8x8_v2.json"
+        }
+      }
+    ]
+  }
